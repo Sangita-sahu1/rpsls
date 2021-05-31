@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,700&display=swap');
 
 :root{
-  --blue-color:#372c9c;
-  --violet-color:#04619f ;
+  --green-color:#80ff72;
+  --sky-color: #7ee8fa;
   --white-color:#ffffff;
-  --black-color:#000000;
+  --blue-color:#1c2042;
   
 }
 *, 
@@ -20,11 +20,15 @@ html{
 body{
   font-family: 'Poppins' sans-serif;
   height: 100vh;
+  background-color: #eec0c6;
+  background-image: linear-gradient(315deg, #eec0c6 0%, #7ee8fa 74%);
+
+
   /* background-color: #0cbaba;
   background-image: linear-gradient(315deg, #0cbaba 0%, #380036 74%); */
-  background-color: #000000;
-background-image: linear-gradient(147deg, #000000 0%, #04619f 74%);
-  color: var(--black-color);
+  /* background-color: #d9c7e7;
+background-image: linear-gradient(147deg,#80ff72 0%,  #7ee8fa74%); */
+  color: var(--blue-color);
 
 }
 .container{
@@ -71,7 +75,7 @@ header .title{
   justify-content: space-around;
 }
 .weapons button{
-  background-color: rgb(7, 65, 104);
+  background-color: rgb(26, 4, 41);
   color: var(--white-color);
   border: none;
   font-size: 3rem;
@@ -102,7 +106,7 @@ span{
   font-weight: 900;
 }
 button{
-  background-color: #d9c7e7;
+  background-color: #fbfbfd;
   border-radius: 13px;
   width: 100px;
   height: 40px;
